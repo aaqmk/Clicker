@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clicker</string>
+    <string name="btn_tap_text">ТАП</string>
+    <string name="text_inc_text">+%d $</string>
+    <string name="text_score_text">%d $</string>
+    <string name="boost_fragment_icon">icon</string>
+</resources>
