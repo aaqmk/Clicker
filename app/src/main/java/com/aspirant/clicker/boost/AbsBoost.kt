@@ -8,11 +8,7 @@ abstract class AbsBoost {
 
 
     abstract fun buy()
-
-    abstract fun load(id: Int)
-
     abstract fun save()
-
     abstract fun apply()
 
 
