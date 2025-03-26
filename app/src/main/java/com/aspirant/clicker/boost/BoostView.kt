@@ -1,8 +1,7 @@
 package com.aspirant.clicker.boost
 
-import android.content.Context
+import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -62,6 +61,7 @@ class BoostView : Fragment() {
             }
     }
 
+    @SuppressLint("SetTextI18n", "DiscouragedApi")
     override fun onResume() {
         super.onResume()
         view?.findViewById<TextView>(R.id.boost_name)?.text = title
